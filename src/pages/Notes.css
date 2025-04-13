@@ -1,0 +1,46 @@
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 25px;
+}
+
+.navigate-homepage {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+}
+
+.header-notes {
+    margin-bottom: 100px;
+}
+
+.notes {
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.buttons {
+    position: relative;
+    margin-left: 10px; 
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    /* margin: 50px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .my-component {
+      width: 100%; /* Make the component full-width on small screens */
+      padding: 10px; /* Add some padding */
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    .my-component {
+      width: 500px; 
+      margin: 0 auto; 
+    }
+  }
